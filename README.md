@@ -4,4 +4,4 @@ Flaky test testsuite (Maven Surefire Plugin part)
 
 A collection of flaky and broken tests to check how your build server reports them.
 
-Travis build is constantly failing, this is OK.
+Travis build is successful, as Travis CI is unable to detect that the test is only successful after N flakes within a single build.
